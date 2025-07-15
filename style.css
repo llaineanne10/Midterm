@@ -4,18 +4,18 @@ body {
   padding: 0;
   color: #1a1a1a;
 }
-.container {
+.image {
       position: relative;
       width: 98%;
       height: 500px;
       background-color: #F9C265;
     }
 
-    .text {
+    .container {
       margin: 0 1rem;
       word-spacing: 2rem;
       position: relative;
-      top: 30px;
+      bottom: 3rem;
       left: 90px;
       font-size: 20px;
       font-size: bold;
@@ -23,4 +23,29 @@ body {
     }
 .image {
   position: relative;
+}
+.header-image {
+  width: 150px;
+  height: auto;
+  position: relative;
+  display: block;
+  top: auto;
+  left: 25rem;
+  margin-bottom: auto;
+}
+.Login & Signup {
+  position: relative;
+  display: inline-block;
+  left: 100rem;
+}
+.Log {
+  position: inline-block;
+  font-weight: 100px;
+}
+.Sign {
+  position: inline-block;
+  background-color: #1E1C1D;
+  color: #C6C6C6;
+  border-radius: 30px;
+  padding : 5px 10px;
 }
